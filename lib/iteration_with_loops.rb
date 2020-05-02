@@ -35,7 +35,7 @@ def join_nested_strings(src)
       
       if src[row_index][element_index] == src[row_index][element_index].to_s 
         new_string += src[row_index][element_index]
-        new_string += " "
+        joined_string += " "
 
       end
       element_index += 1 
