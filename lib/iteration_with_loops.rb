@@ -23,7 +23,7 @@ require "pry"
 
 def join_nested_strings(src)
   
-  new_string = ""
+  joined_string = ""
   row_index = 0 
   
   while row_index < src.count do 
@@ -34,7 +34,7 @@ def join_nested_strings(src)
     while element_index < array.count  do 
       
       if src[row_index][element_index] == src[row_index][element_index].to_s 
-        new_string += src[row_index][element_index]
+        joined_string += src[row_index][element_index]
         joined_string += " "
 
       end
