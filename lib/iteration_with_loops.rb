@@ -31,7 +31,7 @@ def join_nested_strings(src)
     array = src[row_index]
     while element_index < array.count  do 
       if src[row_index][element_index] == src[row_index][element_index].to_s 
-        joined_string += src[row_index][element_index]
+        joined_string = joined_string + src[row_index][element_index]
         joined_string += " "
       
       end
