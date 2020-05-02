@@ -35,7 +35,7 @@ def join_nested_strings(src)
         joined_string += " "
       
       end
-      element_index += 1 
+      element_index = element_index + 1 
     
 		end
     row_index = row_index +  1
