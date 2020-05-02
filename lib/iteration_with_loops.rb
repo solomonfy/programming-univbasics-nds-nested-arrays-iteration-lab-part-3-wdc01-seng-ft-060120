@@ -27,16 +27,13 @@ def join_nested_strings(src)
   row_index = 0 
   
   while row_index < src.count do 
-    
     element_index = 0 
-  
     array = src[row_index]
     while element_index < array.count  do 
-      
       if src[row_index][element_index] == src[row_index][element_index].to_s 
         joined_string += src[row_index][element_index]
         joined_string += " "
-
+      
       end
       element_index += 1 
     
